@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+.hero-section-img {
+  height: 670px;
+}
+.home-vendor-img {
+  height: 280px;
+}
+@media screen and (min-width: 280px) {
+  .hero-section-img {
+    max-height: 280px;
+  }
+  .app{
+    top:-570px;
+  }
+  .home-app{
+    height: 550px;
+  }
+  .app img{
+    height: 265px;
+  }
+}
+
+@media screen and (min-width:372px) {
+  .app {
+    top:-580px;
+    left: 3%;
+  }
+}
+@media screen and (min-width:409px) {
+  .app {
+    top:-520px;
+    left:10%;
+  }
+}
+@media screen and (min-width:480px) {
+  .app {
+    top:-460px;
+    left:22%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-section-img {
+    max-height: 412px;
+  }
+  .resturant-search {
+    width: 90%;
+  }
+  .home-vendor-img {
+    height: 404px;
+  }
+  .app {
+    left: 50%;
+    top: -122%;
+  }
+  .app img{
+    height: 450px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .hero-section-img {
+    max-height: 412px;
+  }
+}
+@media screen and (min-width: 1265px) {
+  .hero-section-img {
+    max-height: 544px;
+  }
+  .home-vendor-img {
+    height: 432px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero-section-img {
+    max-height: 680px;
+  }
+}
+
+/* Cities Css*/
+
+.img-hover-zoom:hover a p,
+.img-hover-zoom:hover a button {
+  display: block;
+}
+
+/* Apps Styling Here.... */
+
+@media screen and (min-width: 1024px) {
+  .app {
+    left: 50%;
+    top: -150%;
+  }
+  .app img {
+    height:600px;
+  }
+}
